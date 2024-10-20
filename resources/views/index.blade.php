@@ -74,7 +74,7 @@
                     <div class="col-sm-2">
                         <div class="logo">
                             <a href="index.html">
-                                Choco<span>Travel</span>
+                                Cho<span id="p">coTr</span><span>avel</span>
                             </a>
                         </div><!-- /.logo-->
                     </div><!-- /.col-->
@@ -94,7 +94,7 @@
                                     <li class="smooth-menu"><a href="#gallery">DESTINOS</a></li>
                                     <li class="smooth-menu"><a href="#blog">RESEÑAS</a></li>
                                     @if (Auth::check())
-                                        <li class="smooth-menu"><a href="Lo">{{ Auth::user()->name }}!</a></li>
+                                        <li class="smooth-menu"><a href="Lo">{{ Auth::user()->name }}</a></li>
                                         <li class="smooth-menu">
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST"
                                                 style="display: none;">
@@ -103,14 +103,14 @@
 
                                             <a href="#"
                                                 onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                                                Logout
+                                                LOGOUT
                                             </a>
                                         </li>
                                         
                                     @else
 
                                         <li class="smooth">
-                                            <a href="{{ route(name: 'login') }}">Login</a>
+                                            <a href="{{ route(name: 'login') }}">LOGIN</a>
                                         </li>
                                     @endif
 
@@ -168,7 +168,7 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="single-service-box">
                         <div class="service-img">
-                            <img src="assets/images/service/s1.png" alt="service-icon" />
+                            
                         </div><!--/.service-img-->
                         <div class="service-content">
                             <h2>
@@ -184,7 +184,7 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="single-service-box">
                         <div class="service-img">
-                            <img src="assets/images/service/s2.png" alt="service-icon" />
+                           
                         </div><!--/.service-img-->
                         <div class="service-content">
                             <h2>
@@ -200,7 +200,7 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="single-service-box">
                         <div class="statistics-img">
-                            <img src="assets/images/service/s3.png" alt="service-icon" />
+                            
                         </div><!--/.service-img-->
                         <div class="service-content">
 

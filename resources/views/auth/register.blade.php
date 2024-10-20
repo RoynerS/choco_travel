@@ -15,16 +15,15 @@
         <input type="checkbox" id="flip">
         <div class="cover">
             <div class="front">
-                <img src="images/frontImg.jpg" alt="">
                 <div class="text">
-                    <span class="text-1">Every new friend is a <br> new adventure</span>
-                    <span class="text-2">Let's get connected</span>
+                    <span class="text-1"><br></span>
+                    <span class="text-2"></span>
                 </div>
             </div>
             <div class="back">
                 <div class="text">
-                    <span class="text-1">Complete miles of journey <br> with one step</span>
-                    <span class="text-2">Let's get started</span>
+                    <span class="text-1"><br> </span>
+                    <span class="text-2"></span>
                 </div>
             </div>
         </div>
