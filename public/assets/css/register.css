@@ -13,9 +13,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #7d2ae8;
+  background:url(../../assets/images/gallary/p1.jpg);
   padding: 30px;
 }
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Color negro semi-transparente */
+  z-index: 1; /* Asegura que esté detrás de cualquier contenido del body */
+}
+
+* {
+  position: relative; /* Para que el contenido del body se mantenga sobre la capa oscura */
+  z-index: 2;
+}
+
 
 .container {
   position: relative;
@@ -85,8 +102,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.5;
-  background: #7d2ae8;
+  background: #040147;
 }
 
 .cover .text .text-1,
@@ -134,7 +150,9 @@ body {
   bottom: 0;
   height: 3px;
   width: 25px;
-  background: #7d2ae8;
+  background: #040147;
+
+;
 }
 
 .forms .signup-form .title:before {
@@ -168,7 +186,7 @@ body {
 
 .form-content .input-box input:focus,
 .form-content .input-box input:valid {
-  border-color: #7d2ae8;
+  border-color: #040147;
 }
 
 .form-content .input-box i {
@@ -198,7 +216,7 @@ body {
 
 .forms .form-content .button input {
   color: #fff;
-  background: #7d2ae8;
+  background: #040147;
   border-radius: 6px;
   padding: 0;
   cursor: pointer;
@@ -210,7 +228,7 @@ body {
 }
 
 .forms .form-content label {
-  color: #5b13b9;
+  color: #040147;
   cursor: pointer;
 }
 
