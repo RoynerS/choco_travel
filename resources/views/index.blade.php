@@ -14,10 +14,10 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
     <!-- TITLE OF SITE -->
-    <title>Travel</title>
+    <title>Choco Travel</title>
 
     <!-- favicon img -->
-    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
+    <link rel="shortcut icon" type="image/icon" href={{url('assets/images/logo/logo.png')}} />
 
     <!--font-awesome.min.css-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
@@ -136,8 +136,7 @@
                         <div class="single-about-us">
                             <div class="about-us-txt">
                                 <h2>
-                                   
-
+                                    Bienvenidos al mejor vividero del mundo
                                 </h2>
                                 <div class="about-btn">
                                     

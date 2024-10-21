@@ -13,7 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:url(../../assets/images/gallary/p1.jpg);
+  background:url(../../assets/images/gallary/fondo3.jpg) no-repeat ;
+  background-size: cover;
   padding: 30px;
 }
 
@@ -24,7 +25,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Color negro semi-transparente */
+  background-color: rgba(0, 0, 0, 0.737); /* Color negro semi-transparente */
   z-index: 1; /* Asegura que esté detrás de cualquier contenido del body */
 }
 
@@ -102,7 +103,7 @@ body::before {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #040147;
+  background: #00000099;
 }
 
 .cover .text .text-1,
@@ -115,6 +116,7 @@ body::before {
 }
 
 .cover .text .text-2 {
+  
   font-size: 15px;
   font-weight: 500;
 }
@@ -150,7 +152,7 @@ body::before {
   bottom: 0;
   height: 3px;
   width: 25px;
-  background: #040147;
+  background: #000000;
 
 ;
 }
@@ -191,7 +193,7 @@ body::before {
 
 .form-content .input-box i {
   position: absolute;
-  color: #7d2ae8;
+  color: #140851;
   font-size: 17px;
 }
 
@@ -216,7 +218,7 @@ body::before {
 
 .forms .form-content .button input {
   color: #fff;
-  background: #040147;
+  background: #000000;
   border-radius: 6px;
   padding: 0;
   cursor: pointer;
@@ -224,11 +226,13 @@ body::before {
 }
 
 .forms .form-content .button input:hover {
-  background: #5b13b9;
+  background: #000000;
 }
 
+
+
 .forms .form-content label {
-  color: #040147;
+  color: #000000;
   cursor: pointer;
 }
 
