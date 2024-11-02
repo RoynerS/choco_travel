@@ -17,7 +17,7 @@
         <div class="cover">
             <div class="back">
             <img src={{url('assets/images/gallary/back.jpg')}} alt="">
-                <div class="text">
+                <div class="text"> 
                 <span class="text-1">Registrate <br> Y conocer lo mejor del Chocó</span>
                     <span class="text-2">Acandi</span>
                 </div>

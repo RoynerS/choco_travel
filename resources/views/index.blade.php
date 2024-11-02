@@ -214,7 +214,7 @@
                 </div><!--/.col-->
 
             </div><!--/.statistics-counter-->
-        </div><!--/.container-->
+        </div><!--/.container-->n
 
     </section><!--/.service-->
     <!--service end-->
@@ -225,10 +225,10 @@
             <div class="gallery-details">
                 <div class="gallary-header text-center">
                     <h2>
-                        top destination
+                        Destinos
                     </h2>
                     <p>
-                        Duis aute irure dolor in velit esse cillum dolore eu fugiat nulla.
+                        
                     </p>
                 </div><!--/.gallery-header-->
                 <div class="gallery-box">
@@ -238,24 +238,24 @@
 
                                 <div class="col-md-6">
                                     <div class="filtr-item">
-                                        <img src="assets/images/gallary/g1.jpg" alt="portfolio image" />
+                                        <img src={{url('assets/images/gallary/1.jpeg')}} alt="portfolio image" />
                                         <div class="item-title">
                                             <a href="#">
-                                                china
+                                                Bahia Solano
                                             </a>
-                                            <p><span>20 tours</span><span>15 places</span></p>
+                                            <p><span></span><span></span></p>
                                         </div><!-- /.item-title -->
                                     </div><!-- /.filtr-item -->
                                 </div><!-- /.col -->
 
                                 <div class="col-md-6">
                                     <div class="filtr-item">
-                                        <img src="assets/images/gallary/g2.jpg" alt="portfolio image" />
+                                        <img src="assets/images/gallary/g2.jpg" alt="portfolio image" width="100px" />
                                         <div class="item-title">
                                             <a href="#">
-                                                venuzuala
+                                                Acandi
                                             </a>
-                                            <p><span>12 tours</span><span>9 places</span></p>
+                                            <p><span></span><span></span></p>
                                         </div> <!-- /.item-title-->
                                     </div><!-- /.filtr-item -->
                                 </div><!-- /.col -->
@@ -265,9 +265,9 @@
                                         <img src="assets/images/gallary/g3.jpg" alt="portfolio image" />
                                         <div class="item-title">
                                             <a href="#">
-                                                brazil
+                                                lloro
                                             </a>
-                                            <p><span>25 tours</span><span>10 places</span></p>
+                                            <p><span></span><span></span></p>
                                         </div><!-- /.item-title -->
                                     </div><!-- /.filtr-item -->
                                 </div><!-- /.col -->
@@ -277,9 +277,9 @@
                                         <img src="assets/images/gallary/g4.jpg" alt="portfolio image" />
                                         <div class="item-title">
                                             <a href="#">
-                                                australia
+                                                Itsmina
                                             </a>
-                                            <p><span>18 tours</span><span>9 places</span></p>
+                                            <p><span></span><span></span></p>
                                         </div> <!-- /.item-title-->
                                     </div><!-- /.filtr-item -->
                                 </div><!-- /.col -->
@@ -289,9 +289,9 @@
                                         <img src="assets/images/gallary/g5.jpg" alt="portfolio image" />
                                         <div class="item-title">
                                             <a href="#">
-                                                netharland
+                                                Certegui
                                             </a>
-                                            <p><span>14 tours</span><span>12 places</span></p>
+                                            <p><span></span><span></span></p>
                                         </div> <!-- /.item-title-->
                                     </div><!-- /.filtr-item -->
                                 </div><!-- /.col -->
@@ -301,9 +301,9 @@
                                         <img src="assets/images/gallary/g6.jpg" alt="portfolio image" />
                                         <div class="item-title">
                                             <a href="#">
-                                                turkey
+                                                Condoto
                                             </a>
-                                            <p><span>14 tours</span><span>6 places</span></p>
+                                            <p><span></span><span></span></p>
                                         </div> <!-- /.item-title-->
                                     </div><!-- /.filtr-item -->
                                 </div><!-- /.col -->

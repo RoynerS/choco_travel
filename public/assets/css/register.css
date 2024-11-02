@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:url(../../assets/images/gallary/fondo3.jpg) no-repeat ;
+  background:white ;
   background-size: cover;
   padding: 30px;
 }
@@ -25,7 +25,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.737); /* Color negro semi-transparente */
+  background-color: rgba(0, 0, 0, 0.644); /* Color negro semi-transparente */
   z-index: 1; /* Asegura que esté detrás de cualquier contenido del body */
 }
 
