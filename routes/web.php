@@ -29,10 +29,3 @@ Route::post('/login', [LoginController::class, 'login']); // Manejar el envío d
 // Ruta para cerrar sesión (ahora usando POST)
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout'); // Cerrar sesión
 
-// // Rutas protegidas para usuarios autenticados
-// Route::middleware('auth')->group(function () {
-//     // Ejemplo de una página protegida
-//     Route::get('/', function () {
-//         return view('index'); // Cambia esto a la vista que prefieras para los usuarios autenticados
-//     })->name('');
-// });
